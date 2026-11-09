@@ -10,7 +10,7 @@ repos:
         types: [python]
       - id: pytest
         name: Pruebas
-        entry: pytest -q
+        entry: python -c "import os, sys, pytest; os.chdir('plantilla-plataforma-ludica'); sys.exit(pytest.main(['-q']))"
         language: system
         pass_filenames: false
         always_run: true
