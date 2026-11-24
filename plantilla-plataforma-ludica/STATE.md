@@ -8,7 +8,8 @@ Proyecto de plataforma lúdica configurado.
 Curso asignado: Lectura.
 Mecánica: Niveles.
 Regla: desbloquear el siguiente nivel con mínimo 80 % de aciertos.
-Las 6 pruebas iniciales pasan correctamente.
+Las 7 pruebas pasan correctamente, incluyendo GET /api/version.
+El endpoint GET /api/version devuelve {"version": proyecto.VERSION}.
 AGENTS.md actualizado y ajustado a máximo 40 líneas.
 
 ## Decisiones
@@ -17,6 +18,7 @@ AGENTS.md actualizado y ajustado a máximo 40 líneas.
 | --- | --- | --- |
 | 23/11/2026 | Curso Lectura y mecánica Niveles | Según el Anexo A |
 | 23/11/2026 | Desbloqueo con 80 % de aciertos | Cumplir la regla de la mecánica |
+| 23/11/2026 | Endpoint GET /api/version con la versión de app/proyecto.py | Exponer la versión centralizada del proyecto y comprobarla con una prueba |
 
 ## Siguiente paso
 
